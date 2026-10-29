@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- @include head.html -->
+    <title>Photo Credits | Mingle Travels</title>
+    <meta name="description" content="Credits for the photographs used on the Mingle Travels website." />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+<!-- @include header.html -->
+
+    <main>
+      <section class="page-hero page-hero--short">
+        <img src="/images/tea-workers.webp" alt="Tea workers in an Assam garden" />
+        <div class="container">
+          <p class="eyebrow" data-reveal style="--d: var(--intro)">Thank you</p>
+          <h1 data-split>Photo <em>credits</em></h1>
+        </div>
+      </section>
+
+      <section class="section section--plain">
+        <div class="container">
+          <p class="lead" style="margin-bottom: 2.5rem">
+            These photographs come from Wikimedia Commons and are used under their Creative Commons licences. Thank you to each photographer.
+          </p>
+          <ul class="credits" id="credits"></ul>
+        </div>
+      </section>
+    </main>
+
+<!-- @include footer.html -->
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/credits.js"></script>
+  </body>
+</html>
